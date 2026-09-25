@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ejemplo-autores
+  datasource:
+    url: jdbc:postgresql://localhost:5432/autores
+    username: postgres
+    password: clave
+  jpa:
+    hibernate:
+      ddl-auto: validate
